@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OrangeHRM Automation Testing Portfolio</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+font-family:'Segoe UI',sans-serif;
+background:#0f172a;
+color:#fff;
+overflow-x:hidden;
+}
+body::before{
+content:'';
+position:fixed;
+inset:0;
+background:
+radial-gradient(circle at 20% 20%,rgba(59,130,246,.25),transparent 30%),
+radial-gradient(circle at 80% 30%,rgba(245,158,11,.2),transparent 30%),
+radial-gradient(circle at 50% 80%,rgba(99,102,241,.2),transparent 35%);
+z-index:-1;
+}
+.slide{
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+padding:50px;
+}
+.card{
+width:min(1100px,95%);
+background:rgba(255,255,255,.08);
+backdrop-filter:blur(18px);
+border:1px solid rgba(255,255,255,.15);
+border-radius:28px;
+padding:50px;
+box-shadow:0 20px 60px rgba(0,0,0,.35);
+transition:.4s;
+}
+.card:hover{
+transform:translateY(-8px);
+}
+.center{text-align:center}
+h1{
+font-size:4rem;
+margin-bottom:15px;
+}
+h2{
+font-size:2.2rem;
+margin-bottom:25px;
+color:#f59e0b;
+}
+h3{
+font-size:1.5rem;
+margin-bottom:10px;
+}
+p,li{
+font-size:1.1rem;
+line-height:1.8;
+}
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+margin-top:25px;
+}
+.stat{
+background:rgba(255,255,255,.08);
+padding:30px;
+border-radius:20px;
+text-align:center;
+}
+.stat .num{
+font-size:2.5rem;
+font-weight:bold;
+color:#60a5fa;
+}
+.badge{
+display:inline-block;
+padding:10px 18px;
+background:rgba(245,158,11,.15);
+border:1px solid rgba(245,158,11,.3);
+border-radius:999px;
+margin:5px;
+}
+.progress{
+height:25px;
+background:#1e293b;
+border-radius:30px;
+overflow:hidden;
+margin-top:20px;
+}
+.progress-bar{
+height:100%;
+width:100%;
+background:linear-gradient(90deg,#22c55e,#10b981);
+}
+ul{
+padding-left:20px;
+}
+.feature-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+}
+.feature{
+background:rgba(255,255,255,.06);
+padding:25px;
+border-radius:18px;
+}
+.btn{
+display:inline-block;
+padding:15px 30px;
+border-radius:12px;
+background:#2563eb;
+color:white;
+text-decoration:none;
+font-weight:bold;
+margin-top:20px;
+}
+.timeline{
+display:flex;
+flex-direction:column;
+gap:20px;
+}
+.step{
+padding:20px;
+background:rgba(255,255,255,.06);
+border-left:5px solid #f59e0b;
+border-radius:12px;
+}
+footer{
+position:fixed;
+bottom:10px;
+right:20px;
+font-size:.8rem;
+opacity:.7;
+}
+</style>
+</head>
+<body>
+
+<section class="slide">
+<div class="card center">
+<h1>🚀 OrangeHRM Automation Testing</h1>
+<h3>Final Project – Quality Assurance Engineer</h3>
+<p>Febri Naomi Sofia Tampubolon</p>
+
+<div class="grid">
+<div class="stat"><div class="num">28</div>Test Cases</div>
+<div class="stat"><div class="num">100%</div>Pass Rate</div>
+<div class="stat"><div class="num">3</div>Modules Tested</div>
+</div>
+
+<a class="btn" href="https://github.com/febrinaomisofia/OrangeHRM-Automation-Test.git" target="_blank">
+View GitHub Repository
+</a>
+</div>
+</section>
+
+<section class="slide">
+<div class="card center">
+<h2>👩‍💻 About Me</h2>
+<p>Quality Assurance Engineer Bootcamp Student at Sanbercode.</p>
+<p>Passionate about Automation Testing, Cypress Framework, and Quality Engineering.</p>
+<br>
+<span class="badge">QA Engineer</span>
+<span class="badge">Automation Testing</span>
+<span class="badge">Cypress</span>
+<span class="badge">JavaScript</span>
+</div>
+</section>
+
+<section class="slide">
+<div class="card">
+<h2>📌 Project Overview</h2>
+<p>
+This project automates OrangeHRM web application testing using Cypress with
+Page Object Model (POM) architecture and Cypress Intercept.
+</p>
+
+<div class="grid">
+<div class="stat">🧪 Cypress</div>
+<div class="stat">📦 POM</div>
+<div class="stat">🔄 Intercept</div>
+<div class="stat">🐙 GitHub</div>
+</div>
+</div>
+</section>
+
+<section class="slide">
+<div class="card">
+<h2>📊 Test Coverage Dashboard</h2>
+
+<div class="grid">
+<div class="stat">
+<div class="num">12</div>
+🔐 Login
+</div>
+
+<div class="stat">
+<div class="num">8</div>
+📁 Directory
+</div>
+
+<div class="stat">
+<div class="num">8</div>
+👥 Recruitment
+</div>
+</div>
+</div>
+</section>
+
+<section class="slide">
+<div class="card">
+<h2>🏗 Framework Workflow</h2>
+
+<div class="timeline">
+<div class="step">👤 User Action</div>
+<div class="step">📄 Page Object Model</div>
+<div class="step">🧪 Cypress Test Execution</div>
+<div class="step">🔄 API Intercept Validation</div>
+<div class="step">✅ Assertion</div>
+<div class="step">🎯 Pass / Fail Result</div>
+</div>
+
+</div>
+</section>
+
+<section class="slide">
+<div class="card">
+<h2>🔐 Login Feature</h2>
+<div class="feature-grid">
+<div class="feature">
+<ul>
+<li>Valid Login</li>
+<li>Invalid Password</li>
+<li>Invalid Username</li>
+<li>Empty Username</li>
+<li>Empty Password</li>
+<li>UI Verification</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+
+<section class="slide">
+<div class="card">
+<h2>📁 Directory Feature</h2>
+<div class="feature-grid">
+<div class="feature">
+<ul>
+<li>Open Directory Menu</li>
+<li>Search Employee Name</li>
+<li>Search Existing Employee</li>
+<li>Search Non-Existing Employee</li>
+<li>Reset Search</li>
+<li>Single Character Search</li>
+<li>Special Character Search</li>
+<li>Verify Employee Cards Displayed</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+
+<section class="slide">
+<div class="card">
+<h2>👥 Recruitment Feature</h2>
+<div class="feature-grid">
+<div class="feature">
+<ul>
+<li>Open Recruitment Menu</li>
+<li>Search Candidate Name</li>
+<li>Search Existing Candidate</li>
+<li>Search Invalid Candidate</li>
+<li>Reset Search</li>
+<li>Open Add Candidate Form</li>
+<li>Verify Recruitment Table</li>
+<li>Search with Special Characters</li>
+</ul>
+</div>
+</div>
+</section>
+
+<section class="slide">
+<div class="card">
+<h2>📂 Project Structure</h2>
+<pre>
+📁 OrangeHRM-Automation
+ ├── 📁 cypress
+ │   ├── 📁 e2e
+ │   ├── 📁 fixtures
+ │   └── 📁 support
+ ├── 📁 pages
+ ├── 📄 cypress.config.js
+ └── 📄 package.json
+</pre>
+</div>
+</section>
+
+<section class="slide">
+<div class="card">
+<h2>🔄 Cypress Intercept</h2>
+<pre>
+cy.intercept(
+ 'GET',
+ '**/api/v2/recruitment/candidates*'
+).as('candidateSearch')
+
+cy.wait('@candidateSearch')
+</pre>
+</div>
+</section>
+
+<section class="slide">
+<div class="card">
+<h2>📈 Execution Summary</h2>
+
+<p>Total Test Cases: 28</p>
+<p>Passed: 28</p>
+<p>Failed: 0</p>
+<p>Success Rate: 100%</p>
+
+<div class="progress">
+<div class="progress-bar"></div>
+</div>
+
+<h3 style="margin-top:20px">████████████████████ 100%</h3>
+</div>
+</section>
+
+<section class="slide">
+<div class="card">
+<h2>🏆 Key Achievements</h2>
+
+<ul>
+<li>✅ Implemented Page Object Model</li>
+<li>✅ Implemented Cypress Intercept</li>
+<li>✅ Automated 28 Test Cases</li>
+<li>✅ Reusable Framework Structure</li>
+<li>✅ GitHub Integration</li>
+</ul>
+
+</div>
+</section>
+
+<section class="slide">
+<div class="card center">
+<h1>🎉 Thank You</h1>
+<p>Successfully implemented OrangeHRM Automation Testing using Cypress.</p>
+<br>
+<h3>Febri Naomi Sofia Tampubolon</h3>
+<p>Quality Assurance Engineer</p>
+</div>
+</section>
+
+<footer>QA Portfolio • OrangeHRM Automation</footer>
+
+</body>
+</html>
